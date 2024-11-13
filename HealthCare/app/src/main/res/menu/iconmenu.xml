@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/recent"
+      android:icon="@drawable/baseline_history_24"
+      android:title="Recent Activity"/>
+
+  <item android:id="@+id/message"
+      android:icon="@drawable/baseline_message_24"
+      android:title="Messages"/>
+
+  <item android:id="@+id/add_balance"
+      android:icon="@drawable/baseline_account_balance_wallet_24"
+      android:title="add to your balance"/>
+  <item android:id="@+id/medical_pdf"
+      android:icon="@drawable/medical_file"
+      android:title="Medical Files"/>
+
+  <item android:id="@+id/exit"
+      android:icon="@drawable/baseline_exit_black_app_24"
+      android:title="Logout"/>
+
+
+
+</menu>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/lightred"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp"
+    android:id="@+id/pdf_item">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        android:padding="6dip">
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="113dp"
+            android:layout_height="96dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="4dp"
+
+            android:layout_marginBottom="5dp"
+
+            android:src="@drawable/pdf" />
+
+        <TextView
+            android:id="@+id/name_pdf_doctor"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="-340dp"
+
+            android:layout_toLeftOf="@id/icon"
+            android:text=""
+            android:textAlignment="center" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/filename"
+            android:layout_width="167dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="11dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="59dp"
+            android:layout_marginRight="-327dp"
+            android:layout_marginBottom="57dp"
+            android:layout_toLeftOf="@id/icon"
+            android:layout_toEndOf="@+id/icon"
+            android:text="" />
+
+        <TextView
+            android:textAlignment="center"
+            android:id="@+id/time_pdf"
+            android:layout_width="211dp"
+            android:layout_height="28dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="72dp"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="-340dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toLeftOf="@id/icon"
+            android:layout_toEndOf="@+id/icon"
+            android:text="" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
